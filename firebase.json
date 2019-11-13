@@ -1,8 +1,8 @@
 {
   "hosting": [
     {
-      "target": "cogentx-kanban-app",
-      "public": "dist/cogentx-kanban-app",
+      "target": "launchpad-pwa",
+      "public": "dist/launchpad-pwa",
       "ignore": [
         "firebase.json",
         "**/.*",

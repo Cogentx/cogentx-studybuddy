@@ -12,6 +12,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatGridListModule, MatGridTile } from '@angular/material/grid-list';
 import { DeleteButtonComponent } from './delete-button/delete-button.component';
 import { ShellComponent } from './shell/shell.component';
 
@@ -32,6 +33,7 @@ const modules = [
   MatFormFieldModule,
   MatInputModule,
   MatSnackBarModule,
+  MatGridListModule,
 ];
 
 @NgModule({

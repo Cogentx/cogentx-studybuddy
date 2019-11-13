@@ -1,9 +1,9 @@
 {
   "targets": {
-    "cogentx-kanban-app": {
+    "launchpad-pwa": {
       "hosting": {
-        "cogentx-kanban-app": [
-          "cogentx-kanban-app"
+        "launchpad-pwa": [
+          "launchpad-pwa"
         ]
       }
     }

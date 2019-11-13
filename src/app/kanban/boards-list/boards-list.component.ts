@@ -3,7 +3,7 @@ import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
 import { MatDialog } from '@angular/material/dialog';
 import { Subscription } from 'rxjs';
 import { BoardService } from '../board.service';
-import { Board } from '../board.model';
+import { Board } from '../kanban.data-models';
 import { BoardDialogComponent } from '../dialogs/board-dialog.component';
 
 @Component({
