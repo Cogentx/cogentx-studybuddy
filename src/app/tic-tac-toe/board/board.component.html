@@ -1,0 +1,31 @@
+<mat-card class="outer-card">
+  <mat-card-header>
+    <mat-card-title>
+      TicTacToe
+    </mat-card-title>
+    <br>
+    <!-- <span class="fill-remaining-space"></span> -->
+  </mat-card-header>
+
+  <mat-card-content>
+    <div class="main-content">
+      <app-square
+        *ngFor="let val of squares; let i = index"
+        [value]="val"
+        (click)="makeMove(i)">
+      </app-square>
+    </div>
+  </mat-card-content>
+
+  <mat-card-footer *ngIf="!winner">
+    <br>
+    <h3> Current Player: {{ player }}</h3>
+  </mat-card-footer>
+  
+  <mat-card-actions *ngIf="winner">
+    <h3> Player {{ winner }} won the game!</h3>
+    <button mat-stroked-button class="red" (click)="newGame()">
+      Start New Game
+    </button>
+  </mat-card-actions>
+</mat-card>

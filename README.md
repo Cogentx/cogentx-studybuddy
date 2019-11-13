@@ -1,4 +1,5 @@
-# Cogentx Kanban App
+# LaunchPad to Showcase Multiple App Features
+
 ### Progressive Web App (PWA)
 
 Code based on Angular-Firebase course by [Fireship.io](https://fireship.io)
