@@ -1,13 +1,12 @@
 export const environment = {
   production: true,
   firebase: {
-    apiKey: 'AIzaSyD2Lql_zxAl1MUtIFqnn3ZjBOMcx8aVp8M',
-    authDomain: 'launchpad-pwa.firebaseapp.com',
-    databaseURL: 'https://launchpad-pwa.firebaseio.com',
-    projectId: 'launchpad-pwa',
-    storageBucket: 'launchpad-pwa.appspot.com',
-    messagingSenderId: '117098370902',
-    appId: '1:117098370902:web:c96a654857a0e36c66a8f7',
-    measurementId: 'G-9S7BHZBDG2'
+    apiKey: 'AIzaSyCo0kKNvo3_ZPBrAeCR07ag1goej2w6TrM',
+    authDomain: 'slang-com.firebaseapp.com',
+    databaseURL: 'https://slang-com.firebaseio.com',
+    projectId: 'slang-com',
+    storageBucket: 'slang-com.appspot.com',
+    messagingSenderId: '242522151316',
+    appId: '1:242522151316:web:447165e2bb7b1d08525781'
   }
 };

@@ -9,9 +9,11 @@
       <a mat-list-item [routerLink]="['/login']"
         (click)="drawer.close()">Login</a>
       <a mat-list-item [routerLink]="['/kanban']"
-        (click)="drawer.close()">Kanban</a>
+        (click)="drawer.close()">Lists</a>
       <a mat-list-item [routerLink]="['/tic-tac-toe']"
-        (click)="drawer.close()">TicTacToe</a>
+        (click)="drawer.close()">KitKat</a>
+      <a mat-list-item [routerLink]="['/contacts']"
+        (click)="drawer.close()">Contacts</a>
     </mat-nav-list>
   </mat-sidenav>
 
@@ -21,13 +23,18 @@
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
 
-      <span class="logo" [routerLink]="['/']">!CogentX360</span>
+      <span class="logo" [routerLink]="['/']">
+        <img src="../../../assets/icons/JGG_SmallLogo_400.png" alt="small-logo" class="avatar">
+      </span>
+
+      <span mat-label class="logo-title">Studio</span>
 
       <span class="fill-space"></span>
 
       <div *ngIf="!(isHandset$ | async)">
-        <a mat-button [routerLink]="['/kanban']">Kanban</a>
-        <a mat-button [routerLink]="['/tic-tac-toe']">TicTacToe</a>
+        <a mat-button [routerLink]="['/kanban']">Lists</a>
+        <a mat-button [routerLink]="['/tic-tac-toe']">KitKat</a>
+        <a mat-button [routerLink]="['/contacts']">Contacts</a>
         <a mat-button [routerLink]="['/login']"
           *ngIf="!(afAuth.authState | async)">🔑 Login</a>
         <a mat-button [routerLink]="['/login']"
@@ -50,13 +57,13 @@
           <i>💬</i>
           <span>Chat on Slack</span>
         </a>
-        <a mat-menu-item href="https://github.com/over40dev/angular-pwa-app-book">
+        <a mat-menu-item href="https://github.com/Cogentx/cogentx-studybuddy">
           <i>💾</i>
           <span>Code on Github</span>
         </a>
         <a mat-menu-item href="https://fireship.io/courses/angular">
           <i>🔥</i>
-          <span>Full Course on Fireship</span>
+          <span>Course on Fireship</span>
         </a>
 
         <a mat-menu-item

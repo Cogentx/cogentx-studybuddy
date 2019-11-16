@@ -1,0 +1,12 @@
+<h1>Contacts</h1>
+
+<mat-nav-list role="list">
+  <h3 mat-sub-header>List</h3>
+
+  <mat-list-item *ngFor="let contact of contacts | async" [routerLink]="contact.id" role="listitem" >
+    <mat-icon mat-list-icon>account_box</mat-icon>
+    <h3>{{contact.name}}</h3>
+
+  </mat-list-item>
+
+</mat-nav-list>

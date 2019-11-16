@@ -1,9 +1,9 @@
 {
   "targets": {
-    "launchpad-pwa": {
+    "slang-com": {
       "hosting": {
-        "launchpad-pwa": [
-          "launchpad-pwa"
+        "slang-com": [
+          "slang-com"
         ]
       }
     }

@@ -1,8 +1,8 @@
 {
   "hosting": [
     {
-      "target": "launchpad-pwa",
-      "public": "dist/launchpad-pwa",
+      "target": "slang-com",
+      "public": "dist/slang-com",
       "ignore": [
         "firebase.json",
         "**/.*",

@@ -9,22 +9,28 @@ const routes: Routes = [
     path: 'kanban',
     loadChildren: () =>
       import('./kanban/kanban.module').then(m => m.KanbanModule),
-    canActivate: [AuthGuard],
+    canActivate: [AuthGuard]
   },
   {
     path: 'tic-tac-toe',
     loadChildren: () =>
       import('./tic-tac-toe/tic-tac-toe.module').then(m => m.TicTacToeModule),
-    canActivate: [AuthGuard],
+    canActivate: [AuthGuard]
+  },
+  {
+    path: 'contacts',
+    loadChildren: () =>
+      import('./contacts/contacts.module').then(m => m.ContactsModule),
+    canActivate: [AuthGuard]
   },
   {
     path: 'login',
-    loadChildren: () => import('./user/user.module').then(m => m.UserModule),
-  },
+    loadChildren: () => import('./user/user.module').then(m => m.UserModule)
+  }
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule],
+  exports: [RouterModule]
 })
 export class AppRoutingModule {}
