@@ -1,8 +1,10 @@
-# LaunchPad to Showcase Multiple App Features
+# slang-com to Showcase Multiple App Features
 
-### Progressive Web App (PWA)
+## Angular Universal SSR plus PWA
 
-Code based on Angular-Firebase course by [Fireship.io](https://fireship.io)
+### plus Progressive Web App (PWA) offline and dynamic ready!!!
+
+Starter Code based on Angular-Firebase course by [Fireship.io](https://fireship.io)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.12.
 

@@ -51,20 +51,20 @@ $custom-orange: (
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$launchpad-app-primary: mat-palette($custom-orange);
-$launchpad-app-accent: mat-palette($mat-green, A200, A100, A400);
+$slang-com-primary: mat-palette($custom-orange);
+$slang-com-accent: mat-palette($mat-green, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
-$launchpad-app-warn: mat-palette($mat-red);
+$slang-com-warn: mat-palette($mat-red);
 
 // Create the theme object (a Sass map containing all of the palettes).
-// $launchpad-app-theme: mat-light-theme($launchpad-app-primary, $launchpad-app-accent, $launchpad-app-warn);
-$launchpad-app-theme: mat-dark-theme($launchpad-app-primary, $launchpad-app-accent, $launchpad-app-warn);
+// $slang-com-theme: mat-light-theme($slang-com-primary, $slang-com-accent, $slang-com-warn);
+$slang-com-theme: mat-dark-theme($slang-com-primary, $slang-com-accent, $slang-com-warn);
 
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
-@include angular-material-theme($launchpad-app-theme);
+@include angular-material-theme($slang-com-theme);
 
 /* You can add global styles to this file, and also import other style files */
 

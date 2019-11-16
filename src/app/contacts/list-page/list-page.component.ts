@@ -1,7 +1,7 @@
 
 import { Component, OnInit } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
-import { SeoService } from 'src/app/services/seo.service';
+import { SeoService } from '../../services/seo.service';
 
 @Component({
   selector: 'app-list-page',

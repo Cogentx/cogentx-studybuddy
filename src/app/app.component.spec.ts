@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'launchpad-pwa'`, () => {
+  it(`should have as title 'slang-com'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('launchpad-pwa');
+    expect(app.title).toEqual('slang-com');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('launchpad-pwa app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('slang-com app is running!');
   });
 });

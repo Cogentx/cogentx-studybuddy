@@ -3,7 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { Observable } from 'rxjs';
 import { tap } from 'rxjs/operators';
-import { SeoService } from 'src/app/services/seo.service';
+import { SeoService } from '../../services/seo.service';
 
 @Component({
   selector: 'app-detail-page',
