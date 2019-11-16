@@ -22,7 +22,7 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
     HomePageComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     BrowserAnimationsModule,
     SharedModule,
