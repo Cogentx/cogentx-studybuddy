@@ -24,6 +24,7 @@ const ROUTES = [
   '/contacts',
   '/contacts/HJixbo2ImdfXF6siqPCX',
   '/kanban',
+  '/tic-tac-toe',
   '/login'
 ];
 
